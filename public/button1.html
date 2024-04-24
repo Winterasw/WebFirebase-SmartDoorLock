@@ -39,10 +39,11 @@
 <script >
 
   var isLocked = true;
-  function toggleButton() {
   const toggleUnlock = document.getElementById('toggleUnlock');
   const toggleLock = document.getElementById('toggleLock');
   var lockStatus = document.getElementById("lockStatus");
+
+  function toggleButton() {
   // Toggle the disabled property of the buttons
   
   toggleLock.disabled = !toggleLock.disabled;

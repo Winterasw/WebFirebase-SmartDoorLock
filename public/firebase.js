@@ -30,6 +30,7 @@
         var toggleLock = document.querySelector("#toggleLock");
 
         function Unlock() {
+                
                 update(ref(db, "Hotel/Room1/"),{
                     Door1 : 0
                 })
@@ -42,6 +43,7 @@
 
         }
         function Lock() {
+                
                 update(ref(db, "Hotel/Room1/"),{
                     Door1 : 1
                 })
